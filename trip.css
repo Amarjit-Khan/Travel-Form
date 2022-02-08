@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Amita';
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h3{
+    text-align: center;
+    font-family: 'Fondamento';
+    font-size: 40px;
+}
+p{
+    text-align: center;
+}
+.bago{
+    text-align: center;
+    color: rgb(39, 202, 39);
+}
+input, textarea{
+    width: 80%;
+    margin: 11px auto;
+    padding: 14px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 14px;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background-color: #3c087c;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    width: 116px;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
